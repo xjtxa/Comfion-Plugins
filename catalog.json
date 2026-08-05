@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-04T07:40:59+00:00",
+  "plugins": [
+    {
+      "id": "doubao_tts",
+      "name": "豆包文字转语音",
+      "description": "使用豆包 TTS 2.0 为角色回复生成语音。",
+      "version": "1.0.0",
+      "api_version": 1,
+      "capability": "tts",
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.08.04/doubao_tts-1.0.0.zip",
+      "sha256": "b4d04ce51921c6bc83d52f0316d57632798c962a670e46bb85d58be967bd568e",
+      "size": 3976
+    },
+    {
+      "id": "netease_cloudmusic",
+      "name": "网易云音乐播放器",
+      "description": "独立连接网易云账号并播放单曲、歌单大类、每日推荐、我喜欢和心动模式；辅助模型只决定操作类型与搜索词。",
+      "version": "2.3.5",
+      "api_version": 1,
+      "capability": "music_control",
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.08.04/netease_cloudmusic-2.3.5.zip",
+      "sha256": "8d87afef335c96e860ebaab82b61bcf84c5ea5794d8d006d8f5d095d7f00c2e6",
+      "size": 49694
+    },
+    {
+      "id": "searxng_search",
+      "name": "联网搜索",
+      "description": "使用随程序运行的本地 SearXNG 获取实时网页信息。",
+      "version": "1.0.0",
+      "api_version": 1,
+      "capability": "web_search",
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.08.04/searxng_search-1.0.0.zip",
+      "sha256": "a9bbb57d86c085166ab88d166de38551bc69400d56ab4a567185829a9ce01049",
+      "size": 39641901
+    }
+  ]
+}
