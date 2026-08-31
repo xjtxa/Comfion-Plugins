@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-31T18:04:04+00:00",
+  "plugins": [
+    {
+      "id": "billiards3d",
+      "name": "轻量 3D 台球",
+      "description": "在独立 WebView 中游玩本地八球人机对战；保留真实旋转、滚动、库边与落袋物理。",
+      "version": "1.5.8",
+      "api_version": 1,
+      "capability": "billiards3d",
+      "compatibility": {
+        "min_host_version": "0.2",
+        "platforms": [
+          "windows"
+        ],
+        "architectures": [
+          "x64"
+        ]
+      },
+      "dependencies": [
+        "webview2",
+        "webgl"
+      ],
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/billiards3d-1.5.8.zip",
+      "sha256": "0f097ab9cc543603127d470b67b39d0f6f759eb9524e42c44b2c789a75ce0e08",
+      "size": 22204025
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "description": "使用官方 OpenHands 后端完成编程、文件、终端、浏览器任务与联网研究。",
+      "version": "1.0.0",
+      "api_version": 1,
+      "capability": "agent",
+      "compatibility": {
+        "min_host_version": "0.2",
+        "platforms": [
+          "windows"
+        ],
+        "architectures": [
+          "x64"
+        ]
+      },
+      "dependencies": [
+        "bundled-openhands-backend"
+      ],
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/openhands-1.0.0.zip",
+      "sha256": "abfd90a813688ce443ef18f2992a87fbadd9e98c754d866f1ce394e8f524a7f4",
+      "size": 124004761
+    },
+    {
+      "id": "doubao_tts",
+      "name": "豆包文字转语音",
+      "description": "使用豆包 TTS 2.0 为角色回复生成语音。",
+      "version": "1.1.1",
+      "api_version": 1,
+      "capability": "tts",
+      "compatibility": {
+        "min_host_version": "0.2",
+        "platforms": [
+          "windows"
+        ],
+        "architectures": [
+          "x64"
+        ]
+      },
+      "dependencies": [
+        "network"
+      ],
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/doubao_tts-1.1.1.zip",
+      "sha256": "d5d89274987bbef66b3282f5bcd5d94e392c1a84d6c7ca0cfe33aa75b3dc85c6",
+      "size": 6843
+    },
+    {
+      "id": "local_tts",
+      "name": "Qwen 本地文字转语音",
+      "description": "使用可独立下载的 Qwen3-TTS 模型在 NVIDIA GPU 上生成角色语音，无需 API Key。",
+      "version": "2.0.0",
+      "api_version": 1,
+      "capability": "local_tts",
+      "compatibility": {
+        "min_host_version": "0.2",
+        "platforms": [
+          "windows"
+        ],
+        "architectures": [
+          "x64"
+        ]
+      },
+      "dependencies": [
+        "network",
+        "nvidia-gpu",
+        "cuda-12.8"
+      ],
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/local_tts-2.0.0.zip",
+      "sha256": "573857a66030b1ebb0b9e44da28f5e814c90be627e9479d0a8a4ebf8e52bd8de",
+      "size": 92283
+    },
+    {
+      "id": "netease_cloudmusic",
+      "name": "网易云音乐播放器",
+      "description": "独立连接网易云账号并播放单曲、歌单大类、每日推荐、我喜欢和心动模式；辅助模型只决定操作类型与搜索词。",
+      "version": "2.5.2",
+      "api_version": 1,
+      "capability": "music_control",
+      "compatibility": {
+        "min_host_version": "0.2",
+        "platforms": [
+          "windows"
+        ],
+        "architectures": [
+          "x64"
+        ]
+      },
+      "dependencies": [
+        "network",
+        "webview2"
+      ],
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/netease_cloudmusic-2.5.2.zip",
+      "sha256": "c70c1df802a2c8571cd4747bf3acc3819bfed30bc398c53442fa0f1c9e11ea20",
+      "size": 55069
+    },
+    {
+      "id": "searxng_search",
+      "name": "免费本地搜索",
+      "description": "由本地 SearXNG 发现候选网页，再安全抓取正文、去重并做多语言相关性重排；完全免费且无需 API Key。",
+      "version": "1.3.0",
+      "api_version": 1,
+      "capability": "web_search",
+      "compatibility": {
+        "min_host_version": "0.2",
+        "platforms": [
+          "windows"
+        ],
+        "architectures": [
+          "x64"
+        ]
+      },
+      "dependencies": [
+        "bundled-search-runtime",
+        "network"
+      ],
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/searxng_search-1.3.0.zip",
+      "sha256": "9b3748d4644fa3471d92075523600d3df1e495cfa94c6d0da590380a45fd7750",
+      "size": 39666212
+    },
+    {
+      "id": "tavily_search",
+      "name": "Tavily Search",
+      "description": "使用 Tavily Search API 获取适合大模型引用的网页证据。",
+      "version": "1.0.0",
+      "api_version": 1,
+      "capability": "web_search_paid",
+      "compatibility": {
+        "min_host_version": "0.2",
+        "platforms": [
+          "windows"
+        ],
+        "architectures": [
+          "x64"
+        ]
+      },
+      "dependencies": [
+        "network",
+        "tavily-api-key"
+      ],
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/tavily_search-1.0.0.zip",
+      "sha256": "a2842dcafbc8a93b646f757f6b219c95d83ad9c1029d5f9e0fd3ffd911bea142",
+      "size": 10031
+    }
+  ]
+}
