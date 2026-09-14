@@ -1,0 +1,23 @@
+name: Assemble verified plugin upload
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: xjtxa/Comfion-Plugins
+    steps:
+      - name: Reassemble byte-identical package
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release download plugins-2026.09.14 --pattern 'openhands-upload.part*' --dir parts
+          cat parts/openhands-upload.part* > openhands-1.0.0.zip
+          echo '004afcb1d84bb33f091821a45a446e3328fc8329c673d0fa6807783ccfc446f1  openhands-1.0.0.zip' | sha256sum --check
+          gh release upload plugins-2026.09.14 openhands-1.0.0.zip --clobber
+          for file in parts/*; do
+            gh release delete-asset plugins-2026.09.14 "$(basename "$file")" --yes
+          done
