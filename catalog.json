@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-31T18:04:04+00:00",
+  "updated_at": "2026-09-14T13:10:51.448917+00:00",
   "plugins": [
     {
       "id": "billiards3d",
@@ -22,9 +22,9 @@
         "webview2",
         "webgl"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/billiards3d-1.5.8.zip",
-      "sha256": "0f097ab9cc543603127d470b67b39d0f6f759eb9524e42c44b2c789a75ce0e08",
-      "size": 22204025
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/billiards3d-1.5.8.zip",
+      "sha256": "dd8a768308012a4067a3cbda0588db477a0b103efa99e4131878830f956b8a56",
+      "size": 34679702
     },
     {
       "id": "openhands",
@@ -45,9 +45,9 @@
       "dependencies": [
         "bundled-openhands-backend"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/openhands-1.0.0.zip",
-      "sha256": "abfd90a813688ce443ef18f2992a87fbadd9e98c754d866f1ce394e8f524a7f4",
-      "size": 124004761
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/openhands-1.0.0.zip",
+      "sha256": "004afcb1d84bb33f091821a45a446e3328fc8329c673d0fa6807783ccfc446f1",
+      "size": 124004605
     },
     {
       "id": "doubao_tts",
@@ -68,7 +68,7 @@
       "dependencies": [
         "network"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/doubao_tts-1.1.1.zip",
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/doubao_tts-1.1.1.zip",
       "sha256": "d5d89274987bbef66b3282f5bcd5d94e392c1a84d6c7ca0cfe33aa75b3dc85c6",
       "size": 6843
     },
@@ -93,15 +93,15 @@
         "nvidia-gpu",
         "cuda-12.8"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/local_tts-2.0.0.zip",
-      "sha256": "573857a66030b1ebb0b9e44da28f5e814c90be627e9479d0a8a4ebf8e52bd8de",
-      "size": 92283
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/local_tts-2.0.0.zip",
+      "sha256": "c7a11bb255a6f51fd1ad9ece320ca477b3846351924b4c07a269d7af58bb3dfd",
+      "size": 95347
     },
     {
       "id": "netease_cloudmusic",
       "name": "网易云音乐播放器",
-      "description": "独立连接网易云账号并播放单曲、歌单大类、每日推荐、我喜欢和心动模式；辅助模型只决定操作类型与搜索词。",
-      "version": "2.5.2",
+      "description": "独立连接网易云账号并播放单曲、专辑、歌单大类、每日推荐、我喜欢和心动模式；辅助模型只决定操作类型与搜索词。",
+      "version": "2.5.3",
       "api_version": 1,
       "capability": "music_control",
       "compatibility": {
@@ -117,9 +117,9 @@
         "network",
         "webview2"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/netease_cloudmusic-2.5.2.zip",
-      "sha256": "c70c1df802a2c8571cd4747bf3acc3819bfed30bc398c53442fa0f1c9e11ea20",
-      "size": 55069
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/netease_cloudmusic-2.5.3.zip",
+      "sha256": "1b8465981edac33c79e00b8b3d8f028449e197ff0776a71e7965bd247ad5f000",
+      "size": 56380
     },
     {
       "id": "searxng_search",
@@ -141,9 +141,9 @@
         "bundled-search-runtime",
         "network"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/searxng_search-1.3.0.zip",
-      "sha256": "9b3748d4644fa3471d92075523600d3df1e495cfa94c6d0da590380a45fd7750",
-      "size": 39666212
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/searxng_search-1.3.0.zip",
+      "sha256": "4157f1ad8125723d5c3e7a5ea1bb3d5d8873d676dba8fe41beb622b07ae6ec3c",
+      "size": 39666139
     },
     {
       "id": "tavily_search",
@@ -165,7 +165,7 @@
         "network",
         "tavily-api-key"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.01/tavily_search-1.0.0.zip",
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/tavily_search-1.0.0.zip",
       "sha256": "a2842dcafbc8a93b646f757f6b219c95d83ad9c1029d5f9e0fd3ffd911bea142",
       "size": 10031
     }
