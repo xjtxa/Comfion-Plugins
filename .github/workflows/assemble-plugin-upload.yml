@@ -15,9 +15,9 @@ jobs:
         run: |
           set -euo pipefail
           gh release download plugins-2026.09.14 --pattern 'openhands-upload.part*' --dir parts
-          cat parts/openhands-upload.part* > openhands-1.0.0.zip
-          echo '004afcb1d84bb33f091821a45a446e3328fc8329c673d0fa6807783ccfc446f1  openhands-1.0.0.zip' | sha256sum --check
-          gh release upload plugins-2026.09.14 openhands-1.0.0.zip --clobber
+          cat parts/openhands-upload.part* > searxng_search-1.3.0.zip
+          echo '4157f1ad8125723d5c3e7a5ea1bb3d5d8873d676dba8fe41beb622b07ae6ec3c  searxng_search-1.3.0.zip' | sha256sum --check
+          gh release upload plugins-2026.09.14 searxng_search-1.3.0.zip --clobber
           for file in parts/*; do
             gh release delete-asset plugins-2026.09.14 "$(basename "$file")" --yes
           done
