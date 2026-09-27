@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-14T13:10:51.448917+00:00",
+  "updated_at": "2026-09-27T04:20:43+00:00",
   "plugins": [
     {
       "id": "billiards3d",
       "name": "轻量 3D 台球",
       "description": "在独立 WebView 中游玩本地八球人机对战；保留真实旋转、滚动、库边与落袋物理。",
-      "version": "1.5.8",
+      "version": "1.5.9",
       "api_version": 1,
       "capability": "billiards3d",
       "compatibility": {
@@ -22,15 +22,15 @@
         "webview2",
         "webgl"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/billiards3d-1.5.8.zip",
-      "sha256": "dd8a768308012a4067a3cbda0588db477a0b103efa99e4131878830f956b8a56",
-      "size": 34679702
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/billiards3d-1.5.9.zip",
+      "sha256": "035925a7a7b92cf5d8e4f3c611632a7863023a3a840ef13e45fd6d24f3b174cc",
+      "size": 34680622
     },
     {
       "id": "openhands",
       "name": "OpenHands",
       "description": "使用官方 OpenHands 后端完成编程、文件、终端、浏览器任务与联网研究。",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "api_version": 1,
       "capability": "agent",
       "compatibility": {
@@ -45,15 +45,15 @@
       "dependencies": [
         "bundled-openhands-backend"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/openhands-1.0.0.zip",
-      "sha256": "004afcb1d84bb33f091821a45a446e3328fc8329c673d0fa6807783ccfc446f1",
-      "size": 124004605
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/openhands-1.0.1.zip",
+      "sha256": "a5959b696d0e7b6175986f68cea50d0a6d20d7ea0606089348af97574f0117b2",
+      "size": 124004991
     },
     {
       "id": "doubao_tts",
       "name": "豆包文字转语音",
       "description": "使用豆包 TTS 2.0 为角色回复生成语音。",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "api_version": 1,
       "capability": "tts",
       "compatibility": {
@@ -68,15 +68,15 @@
       "dependencies": [
         "network"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/doubao_tts-1.1.1.zip",
-      "sha256": "d5d89274987bbef66b3282f5bcd5d94e392c1a84d6c7ca0cfe33aa75b3dc85c6",
-      "size": 6843
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/doubao_tts-1.1.2.zip",
+      "sha256": "d048bf5381296d907a30986d5945f750929ab352f47d67c61f36aab59a84ad74",
+      "size": 6915
     },
     {
       "id": "local_tts",
       "name": "Qwen 本地文字转语音",
       "description": "使用可独立下载的 Qwen3-TTS 模型在 NVIDIA GPU 上生成角色语音，无需 API Key。",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "api_version": 1,
       "capability": "local_tts",
       "compatibility": {
@@ -93,19 +93,19 @@
         "nvidia-gpu",
         "cuda-12.8"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/local_tts-2.0.0.zip",
-      "sha256": "c7a11bb255a6f51fd1ad9ece320ca477b3846351924b4c07a269d7af58bb3dfd",
-      "size": 95347
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/local_tts-2.0.1.zip",
+      "sha256": "53e238450c33fa6ffeb744693df56e6c0bc764ce75bbbacd8825b1d91ae1ff1f",
+      "size": 95373
     },
     {
       "id": "netease_cloudmusic",
       "name": "网易云音乐播放器",
       "description": "独立连接网易云账号并播放单曲、专辑、歌单大类、每日推荐、我喜欢和心动模式；辅助模型只决定操作类型与搜索词。",
-      "version": "2.5.3",
+      "version": "2.5.4",
       "api_version": 1,
       "capability": "music_control",
       "compatibility": {
-        "min_host_version": "0.2",
+        "min_host_version": "0.3",
         "platforms": [
           "windows"
         ],
@@ -117,15 +117,15 @@
         "network",
         "webview2"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/netease_cloudmusic-2.5.3.zip",
-      "sha256": "1b8465981edac33c79e00b8b3d8f028449e197ff0776a71e7965bd247ad5f000",
-      "size": 56380
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/netease_cloudmusic-2.5.4.zip",
+      "sha256": "e37c9f5c7bffb4c67bcc1870f2d791fb3bfbc95bd32651e4f5aeb74fe4d367d3",
+      "size": 53820
     },
     {
       "id": "searxng_search",
       "name": "免费本地搜索",
       "description": "由本地 SearXNG 发现候选网页，再安全抓取正文、去重并做多语言相关性重排；完全免费且无需 API Key。",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "api_version": 1,
       "capability": "web_search",
       "compatibility": {
@@ -141,15 +141,15 @@
         "bundled-search-runtime",
         "network"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/searxng_search-1.3.0.zip",
-      "sha256": "4157f1ad8125723d5c3e7a5ea1bb3d5d8873d676dba8fe41beb622b07ae6ec3c",
-      "size": 39666139
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/searxng_search-1.3.1.zip",
+      "sha256": "5bf76922fbdeb061cbf2f76da641cd60a9b56c3fad39a4ed2cbad3b0bab17a0c",
+      "size": 39666094
     },
     {
       "id": "tavily_search",
       "name": "Tavily Search",
       "description": "使用 Tavily Search API 获取适合大模型引用的网页证据。",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "api_version": 1,
       "capability": "web_search_paid",
       "compatibility": {
@@ -165,9 +165,30 @@
         "network",
         "tavily-api-key"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.14/tavily_search-1.0.0.zip",
-      "sha256": "a2842dcafbc8a93b646f757f6b219c95d83ad9c1029d5f9e0fd3ffd911bea142",
-      "size": 10031
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/tavily_search-1.0.1.zip",
+      "sha256": "367c1e78eccca8dd294c8e8cdea43e3eaaaf8d6c88d450e119f30e2c8e94f871",
+      "size": 10078
+    },
+    {
+      "id": "qq_chat",
+      "name": "QQ 私聊",
+      "description": "通过 QQ 官方机器人与当前角色私聊。仅限配对本人，聊天记录独立保存。",
+      "version": "0.1.0",
+      "api_version": 1,
+      "capability": "messaging",
+      "compatibility": {
+        "min_host_version": "0.3",
+        "platforms": [
+          "windows"
+        ],
+        "architectures": [
+          "x64"
+        ]
+      },
+      "dependencies": [],
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/qq_chat-0.1.0.zip",
+      "sha256": "b9767b322341e10819380465764007760c7750d9a4974c3518b4887e9ba9d9c7",
+      "size": 21312143
     }
   ]
 }
