@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T06:15:38+00:00",
+  "updated_at": "2026-09-30T08:59:31.7723236+00:00",
   "plugins": [
     {
       "id": "billiards3d",
@@ -120,30 +120,6 @@
       "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/netease_cloudmusic-2.5.4.zip",
       "sha256": "e37c9f5c7bffb4c67bcc1870f2d791fb3bfbc95bd32651e4f5aeb74fe4d367d3",
       "size": 53820
-    },
-    {
-      "id": "searxng_search",
-      "name": "免费本地搜索",
-      "description": "由本地 SearXNG 发现候选网页，再安全抓取正文、去重并做多语言相关性重排；完全免费且无需 API Key。",
-      "version": "1.3.1",
-      "api_version": 1,
-      "capability": "web_search",
-      "compatibility": {
-        "min_host_version": "0.2",
-        "platforms": [
-          "windows"
-        ],
-        "architectures": [
-          "x64"
-        ]
-      },
-      "dependencies": [
-        "bundled-search-runtime",
-        "network"
-      ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/searxng_search-1.3.1.zip",
-      "sha256": "5bf76922fbdeb061cbf2f76da641cd60a9b56c3fad39a4ed2cbad3b0bab17a0c",
-      "size": 39666094
     },
     {
       "id": "tavily_search",
