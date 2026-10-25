@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T08:59:31.7723236+00:00",
+  "updated_at": "2026-10-25T05:16:42+00:00",
   "plugins": [
     {
       "id": "billiards3d",
@@ -101,7 +101,7 @@
       "id": "netease_cloudmusic",
       "name": "网易云音乐播放器",
       "description": "独立连接网易云账号并播放单曲、专辑、歌单大类、每日推荐、我喜欢和心动模式；辅助模型只决定操作类型与搜索词。",
-      "version": "2.5.4",
+      "version": "1.0.0",
       "api_version": 1,
       "capability": "music_control",
       "compatibility": {
@@ -117,9 +117,9 @@
         "network",
         "webview2"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/netease_cloudmusic-2.5.4.zip",
-      "sha256": "e37c9f5c7bffb4c67bcc1870f2d791fb3bfbc95bd32651e4f5aeb74fe4d367d3",
-      "size": 53820
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/netease-1.0.0/netease_cloudmusic-1.0.0.zip",
+      "sha256": "78b9bfe21bc86e0e39e1e12dcb4c2cd6961ce950b70dadec89b52d82f22405de",
+      "size": 71672
     },
     {
       "id": "tavily_search",
