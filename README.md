@@ -10,3 +10,5 @@ Current catalog: seven downloadable plugins. The free local search plugin has be
 The local TTS package contains only its loader, configuration and dependency lockfiles. Downloaded models, caches and user credentials are not included.
 
 Packages include required notices and corresponding source archives.
+
+[Doubao TTS 1.0.0](https://github.com/xjtxa/Comfion-Plugins/releases/tag/doubao-tts-1.0.0) replaces the previous Doubao development package. The default voice is `ICL_uranus_zh_female_bingruoshaonv_tob`; existing custom voices are preserved.
