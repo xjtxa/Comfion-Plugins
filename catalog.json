@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T06:07:38+00:00",
+  "updated_at": "2026-10-26T13:03:40+00:00",
   "plugins": [
     {
       "id": "billiards3d",
@@ -74,13 +74,13 @@
     },
     {
       "id": "local_tts",
-      "name": "Qwen 本地文字转语音",
-      "description": "使用可独立下载的 Qwen3-TTS 模型在 NVIDIA GPU 上生成角色语音，无需 API Key。",
-      "version": "2.0.1",
+      "name": "Qwen 本地语音",
+      "description": "使用 Qwen3-TTS Q8 生成角色语音，使用 Qwen3-ASR 将中英文录音转成文字；朗读使用 NVIDIA 显卡，识别使用 CPU，无需 API Key。",
+      "version": "1.0.0",
       "api_version": 1,
       "capability": "local_tts",
       "compatibility": {
-        "min_host_version": "0.2",
+        "min_host_version": "0.3",
         "platforms": [
           "windows"
         ],
@@ -93,9 +93,9 @@
         "nvidia-gpu",
         "cuda-12.8"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/local_tts-2.0.1.zip",
-      "sha256": "53e238450c33fa6ffeb744693df56e6c0bc764ce75bbbacd8825b1d91ae1ff1f",
-      "size": 95373
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/local-tts-1.0.0/local_tts-1.0.0.zip",
+      "sha256": "8e90d5c76dc81156b9751f64eea750a80ef0f7a3ec67605fdf0c9770d8cefdfe",
+      "size": 94235684
     },
     {
       "id": "netease_cloudmusic",
