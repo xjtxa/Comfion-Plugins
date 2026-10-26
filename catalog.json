@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T13:03:40+00:00",
+  "updated_at": "2026-10-26T16:20:31+00:00",
   "plugins": [
     {
       "id": "billiards3d",
@@ -165,6 +165,30 @@
       "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/qq_chat-0.1.0.zip",
       "sha256": "b9767b322341e10819380465764007760c7750d9a4974c3518b4887e9ba9d9c7",
       "size": 21312143
+    },
+    {
+      "id": "exa_search",
+      "name": "Exa Search",
+      "description": "通过 Exa 官方 API 搜索网页，返回带来源的相关片段。",
+      "version": "1.0.0",
+      "api_version": 1,
+      "capability": "web_search_exa",
+      "compatibility": {
+        "min_host_version": "0.3",
+        "platforms": [
+          "windows"
+        ],
+        "architectures": [
+          "x64"
+        ]
+      },
+      "dependencies": [
+        "network",
+        "exa-api-key"
+      ],
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/exa-search-1.0.0/exa_search-1.0.0.zip",
+      "sha256": "f37f936042dbc5ffe0c3e18f3c7880218ea1033e604d853e13ddc56133ab9804",
+      "size": 11218
     }
   ]
 }
