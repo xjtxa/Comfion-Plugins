@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T04:59:33+00:00",
+  "updated_at": "2026-11-24T07:08:47+00:00",
   "plugins": [
     {
       "id": "billiards3d",
@@ -27,29 +27,6 @@
       "size": 34680622
     },
     {
-      "id": "openhands",
-      "name": "OpenHands",
-      "description": "使用官方 OpenHands 后端完成编程、文件、终端、浏览器任务与联网研究。",
-      "version": "1.0.1",
-      "api_version": 1,
-      "capability": "agent",
-      "compatibility": {
-        "min_host_version": "0.2",
-        "platforms": [
-          "windows"
-        ],
-        "architectures": [
-          "x64"
-        ]
-      },
-      "dependencies": [
-        "bundled-openhands-backend"
-      ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/plugins-2026.09.27/openhands-1.0.1.zip",
-      "sha256": "a5959b696d0e7b6175986f68cea50d0a6d20d7ea0606089348af97574f0117b2",
-      "size": 124004991
-    },
-    {
       "id": "doubao_tts",
       "name": "豆包文字转语音",
       "description": "使用豆包 TTS 2.0 为角色回复生成语音。",
@@ -57,7 +34,7 @@
       "api_version": 1,
       "capability": "tts",
       "compatibility": {
-        "min_host_version": "0.2",
+        "host": "comfion-agent",
         "platforms": [
           "windows"
         ],
@@ -68,19 +45,20 @@
       "dependencies": [
         "network"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/doubao-tts-1.0.0/doubao_tts-1.0.0.zip",
-      "sha256": "6ad129ba926b812e8aeff1c7732748dc94918ada51abd97582a9fde969393b7d",
-      "size": 6902
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/comfion-agent-plugins-2026.11.24/Comfion-Agent-doubao_tts.zip",
+      "sha256": "97dc9dc8f8824bc2909ce1cb0e666cfbc553d2b8ed39744b81ef946b8856ddd6",
+      "size": 954,
+      "package_format": "comfion-agent-v1"
     },
     {
       "id": "local_tts",
       "name": "Qwen 本地语音",
-      "description": "使用 Qwen3-TTS Q8 生成角色语音，使用 Qwen3-ASR 将中英文录音转成文字；朗读使用 NVIDIA 显卡，识别使用 CPU，无需 API Key。",
+      "description": "使用 Qwen3-TTS Q8 在本机生成角色语音，无需 API Key。",
       "version": "1.0.0",
       "api_version": 1,
       "capability": "local_tts",
       "compatibility": {
-        "min_host_version": "0.3",
+        "host": "comfion-agent",
         "platforms": [
           "windows"
         ],
@@ -93,9 +71,10 @@
         "nvidia-gpu",
         "cuda-12.8"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/local-tts-1.0.0/local_tts-1.0.0.zip",
-      "sha256": "8e90d5c76dc81156b9751f64eea750a80ef0f7a3ec67605fdf0c9770d8cefdfe",
-      "size": 94235684
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/comfion-agent-plugins-2026.11.24/Comfion-Agent-local_tts.zip",
+      "sha256": "d59a55f04a47c3db9470e24ffe3ac50fcf325f5289159a572559df39a7b641c9",
+      "size": 94362538,
+      "package_format": "comfion-agent-v1"
     },
     {
       "id": "netease_cloudmusic",
@@ -129,7 +108,7 @@
       "api_version": 1,
       "capability": "web_search_paid",
       "compatibility": {
-        "min_host_version": "0.2",
+        "host": "comfion-agent",
         "platforms": [
           "windows"
         ],
@@ -141,9 +120,10 @@
         "network",
         "tavily-api-key"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/tavily-search-1.0.0/tavily_search-1.0.0.zip",
-      "sha256": "399cbc8634052fef05a457b204960b7a9841097371e5ae7dbdce4c2936db85b2",
-      "size": 14823
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/comfion-agent-plugins-2026.11.24/Comfion-Agent-tavily_search.zip",
+      "sha256": "b9d47459da3ad5071d1e44925d6a5b325f488bbc51d3dcbb4fd07e57ab7330a3",
+      "size": 1537,
+      "package_format": "comfion-agent-v1"
     },
     {
       "id": "qq_chat",
@@ -174,7 +154,7 @@
       "api_version": 1,
       "capability": "web_search_exa",
       "compatibility": {
-        "min_host_version": "0.3",
+        "host": "comfion-agent",
         "platforms": [
           "windows"
         ],
@@ -186,9 +166,10 @@
         "network",
         "exa-api-key"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/exa-search-1.0.0/exa_search-1.0.0.zip",
-      "sha256": "f37f936042dbc5ffe0c3e18f3c7880218ea1033e604d853e13ddc56133ab9804",
-      "size": 11218
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/comfion-agent-plugins-2026.11.24/Comfion-Agent-exa_search.zip",
+      "sha256": "05e926925157983c0394008030218ccb44716887d9c79195bb7c05c520d34e65",
+      "size": 1086,
+      "package_format": "comfion-agent-v1"
     }
   ]
 }
