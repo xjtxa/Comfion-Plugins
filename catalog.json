@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:08:47+00:00",
+  "updated_at": "2026-11-24T07:55:15+00:00",
   "plugins": [
     {
       "id": "billiards3d",
@@ -84,7 +84,7 @@
       "api_version": 1,
       "capability": "music_control",
       "compatibility": {
-        "min_host_version": "0.3",
+        "host": "comfion-agent",
         "platforms": [
           "windows"
         ],
@@ -96,9 +96,10 @@
         "network",
         "webview2"
       ],
-      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/netease-1.0.0/netease_cloudmusic-1.0.0.zip",
-      "sha256": "78b9bfe21bc86e0e39e1e12dcb4c2cd6961ce950b70dadec89b52d82f22405de",
-      "size": 71672
+      "download_url": "https://github.com/xjtxa/Comfion-Plugins/releases/download/netease-1.0.0/Comfion-Agent-netease_cloudmusic.zip",
+      "sha256": "da2e59e4dae9d80436c5ac1b9440eebeab4aaf58dd31e59b39da35b3d647f96d",
+      "size": 18944,
+      "package_format": "comfion-agent-v1"
     },
     {
       "id": "tavily_search",
